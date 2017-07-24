@@ -1,4 +1,48 @@
-.btn-group .button {
+	
+	head {
+		font-family: 'Josefin Sans', sans-serif;
+	}
+		
+	body {
+		background-color:#dbdad5;
+		font-family: 'Josefin Sans', sans-serif;
+	}
+		
+    p{
+    	font-size:20px;
+	}
+
+	h3{
+		font-size:30px
+	}
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color:#c2dbda;
+
+}
+
+li {
+	float:left;
+}
+
+li a{
+	display: block;
+	color:black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover{
+	background:	#d7c5de;
+}
+
+/*.btn-group .button {
 	background-color: #A0C1B3
 	border: none;
 	color: none;
@@ -18,4 +62,4 @@
 <div class="btn-group">
 	<button class="button">Button</button>
 	<button class="button">Button</button>
-	<button class="button">Button</button>
+	<button class="button">Button</button>*/
