@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--links-->
+		<link rel = "stylesheet" type =  "text/css" href = "style.css">
+		<script src = "main.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+		<link href="index" type = "html" href = "index.html">
+
+<!--Pages-->
+	<title> Kalib Girls Homepage</title>
+	<ul>	<li><a class = "active" href="kalid-website homepage.html">	<b>Homepage</b></a>
+			<li><a href="kalid-information-page.html"><b>Information Page</b></a>
+			<li><a href="kalid-inspire-page.html"><b>Inspire Page</b></a>
+	</ul>
+</head>
+<body>
+<!--All About Us-->
+<center>
+	<br></br>
+	<h><b>KALIB</b><h>
+	<br></br>
+	<h>By Teens For Teens</h>
+	<h1> All About Us</h1>
+
+		<p>Hello, we are Kalib. Kalib is a group name, our members are Bridgette Martinez, Kylie Chow, and Karen Cazares. We got together in a group project for Girls Who Code. Our goal here is to create a creative outlet for teens!
+		</p>
+		<img src="kalibphoto.jpg">
+	<br></br>
+	<h1>Our Purpose</h1>
+		<p>Mental illness is something that is close to all of our hearts since so much stigma surrounds those who have mental illnesses. Being a teenager, who has an undiagnosed mental illness, makes life harder than it should be. The most important thing is to be able to find help. We want you all to express yourself in a safe environment where others can hear you out and support you. </p>
+	<br></br>
+
+
+<!--Hotlines-->
+	<h1>HOTLINES</h1>
+		<p>Here are emergency hotlines, please know you're not alone. NOT NOW. NOT EVER.</p>
+		<p>LA County Mental Health: 800 - 854 - 7771
+		National Alliance on Mental Health: 1 - 800 - 950 - NAMI
+		</p>
+		<p>Don't be afraid, we're here to help!</p>
+	<br></br>
+	<!-- Quiz -->
+	<center>
+		<form id = "quiz" name = "quiz">
+
+			<p>What word would you use to describe your overall mood in a day?</p>
+			<input id = "textbox" type = "text" name = "question1">
+
+			<p>Are you happy with your body and weight?</p>
+			<input type = "radio" id = "mc" name = "question2" value = "Yes">Yes<br>
+			<input type = "radio" id = "mc" name = question2 value = "No">No<br>
+
+			<p>Do you think you eat a healthy balanced diet?</p>
+			<input type = "radio" id = "mc" name = "question3" value = "Yes">Yes<br>
+			<input type = "radio" id = "mc" name = "question3" value = "No">No<br>
+
+			<p>Do you get the recommended 7-9 hours of sleep?</p>
+			<input type = "radio" id = "mc" name = "question4" value = "Yes">Yes<br>
+			<input type = "radio" id = "mc" name = "question4" value = "No">No<br>
+
+			<p>Are you doing well at school or work?</p>
+			<input type = "radio" id = "mc" name = "question5" value = "Yes">Yes<br>
+			<input type = "radio" id = "mc" name = "question5" value = "No">No<br>
+
+			<p>Do you attend school or work regularly?</p>
+			<input type = "radio" id = "mc" name = "question6" value = "Yes">Yes<br>
+			<input type = "radio" id = "mc" name = "question6" value = "No">No<br>
+
+			<p>You rarely feel stressed:</p>
+			<input type = "radio" id = "mc" name = "question7" value = "Yes">Yes<br>
+			<input type = "radio" id = "mc" name = "question7" value = "No">No<br>
+
+			<p>You rarely get frustrated with yourself:</p>
+			<input type = "radio" id = "mc" name = "question8" value = "Yes">Yes<br>
+			<input type = "radio" id = "mc" name = "question8" value = "No">No<br>
+
+			<p>You have never taken drugs or alcohol:</p>
+			<input type = "radio" id = "mc" name = "question9" value = "Yes">Yes<br>
+			<input type = "radio" id = "mc" name = "question9" value = "No">No<br>
+
+			<p>You have never considered self - harm:</p>
+			<input type = "radio" id = "mc" name = "question10" value = "Yes">Yes<br>
+			<input type = "radio" id = "mc" name = "question10" value = "No">No<br>
+
+			<input id = "button" type = "button" value = "Done" onclick = "check();">
+		</form>
+		<div id  = "after_submit">
+			<p id = "message"></p>
+			<p id = "number_correct"></p>
+			<p id = "number_correct">Thank You!</p>
+		</div>
+		<h3>Contact Us</h3>
+		<p>We would love to hear from you. Message us at kalibproject@gmail.com</p>
+	</center>
+</body>
+</html>
