@@ -2,17 +2,17 @@
 	head {
 		font-family: 'Josefin Sans', sans-serif;
 	}
-		
+
+
 	body {
-		background-color:#dbdad5;
+		background-color:#DBE5EC;
 		font-family: 'Josefin Sans', sans-serif;
-		font-size:30px;
+		font-size:25px;
 	}
 		
     p{
     	font-family: 'Josefin Sans', sans-serif;
-
-    	font-size:35px;
+    	font-size:20px;
 	}
 
 
@@ -21,7 +21,7 @@ ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color:#c2dbda;
+	background-color:#FFFFFF;
 
 }
 
@@ -38,7 +38,7 @@ li a{
 }
 
 li a:hover{
-	background:	#d7c5de;
+	background:	#ADD5D7;
 }
 h3{
 	text-align: center;
