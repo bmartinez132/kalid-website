@@ -9,7 +9,8 @@ var quotes = [
 	"This is our job as leaders; to offer positive solution and empower people. Our duty is to tackle our problems before they tackle us. -Paul Ryan",
 	"Love yourself. It is important to stay positive because beauty comes from the inside out. -Jenn Proske",
 	"For me, life is about being positive and hopeful, choosing to be joyful, choosing to be encouraging, choosing to be empoering. -Billy Porter",
-	"The best preparation for tomorrow is doing your best today -H.Jackson Brown, Jr."
+	"The best preparation for tomorrow is doing your best today -H.Jackson Brown, Jr.",
+	"It's easy for me to be kind to others. It's much harder to be kind to myself. And it's hardest to realize that's not healthy. -Sanjana Mendu"
 
 
 

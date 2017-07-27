@@ -44,7 +44,7 @@ h3{
 }
 
 .button {
-    background-color: #ADD5D7;
+    background-color: #c7c9cc;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -55,26 +55,6 @@ h3{
     margin: 4px 2px;
     cursor: pointer;
 }
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color:#FFFFFF;
-
+.button:hover{
+	background: #b3b5b7
 }
-
-li {
-	float:left;
-}
-
-li a{
-	display: block;
-	color:black;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-}
-
-li a:hover{
-	background:	#ADD5D7;}

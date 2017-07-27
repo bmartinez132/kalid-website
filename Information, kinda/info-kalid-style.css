@@ -1,0 +1,14 @@
+table{
+	font-family: 'Josefin Sans', sans-serif;
+	border-collapse: collapse;
+	width="100"; 
+	height="100";
+}
+td, th{
+	border: 1px solid #acb3bf;
+	text-align: left;
+	padding: 100px;
+}
+tr:nth-child(even){
+	background-color: #ccc5db;
+}
