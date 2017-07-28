@@ -5,9 +5,9 @@
 
 
 	body {
-		background-color:#DBE5EC;
+		background-color:#FFFFFF;
 		font-family: 'Josefin Sans', sans-serif;
-		font-size:25px;
+		font-size:20px;
 	}
 		
     p{
@@ -21,7 +21,10 @@ ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color:#FFFFFF;
+	background-color:#a9afb6;
+	position: absolute;
+	width:100%;
+	top:0;
 
 }
 
