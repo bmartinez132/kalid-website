@@ -5,9 +5,9 @@
 
 
 	body {
-		background-color:#DBE5EC;
+		background-color:#FFFFFF;
 		font-family: 'Josefin Sans', sans-serif;
-		font-size:25px;
+		font-size:20px;
 	}
 		
     p{
@@ -21,7 +21,10 @@ ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color:#FFFFFF;
+	background-color:#a9afb6;
+	position: absolute;
+	width:100%;
+	top:0;
 
 }
 
@@ -38,7 +41,7 @@ li a{
 }
 
 li a:hover{
-	background:	#ADD5D7;
+	background:#BEC2C4;
 }
 h3{
 	text-align: center;
@@ -46,7 +49,7 @@ h3{
 #quiz {
 	font-family:'Lato', sans-serif;
 	margin-left:10px;
-	background: #d2def2;
+	background: #C4C4C4;
 	padding:10px 20px 10px 20px;
 	width:400px;
 	border-radius:20px;
@@ -64,7 +67,7 @@ input{
 }
 
 #button {
-	background:green;
+	background:#E4E4E4;
 	border:none;
 	border-radius:5px;
 	padding:10px;
@@ -76,14 +79,14 @@ input{
 
 #button:hover {
 	background:white;
-	border: 1px solid green;
+	border: 1px solid white;
 	color:black;
 	cursor:pointer;
 }
 #after_submit {
 	visibility:hidden;
 	font-family:'Lato', sans-serif;
-	background: : #ff5459
+	background: :#BEC2C4
 	padding:10px 20px 10 px 20px;
 	width:400px
 	border-radius: 20px;
