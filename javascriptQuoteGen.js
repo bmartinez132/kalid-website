@@ -10,12 +10,16 @@ var quotes = [
 	"Love yourself. It is important to stay positive because beauty comes from the inside out. -Jenn Proske",
 	"For me, life is about being positive and hopeful, choosing to be joyful, choosing to be encouraging, choosing to be empoering. -Billy Porter",
 	"The best preparation for tomorrow is doing your best today -H.Jackson Brown, Jr.",
-	"It's easy for me to be kind to others. It's much harder to be kind to myself. And it's hardest to realize that's not healthy. -Sanjana Mendu"
+	"It's easy for me to be kind to others. It's much harder to be kind to myself. And it's hardest to realize that's not healthy. -Sanjana Mendu",
+	"Music can change the world because it can change people -Bono",
+	"Music is moonlight in the gloomy night of life -Jean Paul",
+	"Nothing is impossible, the word itself says 'I'm possible'!",
+	"Try to be a rainbow in someone's cloud -Maya Angelou",
+	"It is during our darkest moment that we must focus to see the light -Aristotle"
 
 
 
-
-]
+];
 
 function newQuote() {
 	var randomNumber = Math.floor(Math.random()*(quotes.length));
