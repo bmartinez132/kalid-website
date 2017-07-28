@@ -41,7 +41,7 @@ li a{
 }
 
 li a:hover{
-	background:#ADCBCD;
+	background:#BEC2C4;
 }
 h3{
 	text-align: center;
@@ -49,7 +49,7 @@ h3{
 #quiz {
 	font-family:'Lato', sans-serif;
 	margin-left:10px;
-	background: #ADCBCD;
+	background: #C4C4C4;
 	padding:10px 20px 10px 20px;
 	width:400px;
 	border-radius:20px;
@@ -67,7 +67,7 @@ input{
 }
 
 #button {
-	background:#ADCBCD;
+	background:#E4E4E4;
 	border:none;
 	border-radius:5px;
 	padding:10px;
@@ -86,7 +86,7 @@ input{
 #after_submit {
 	visibility:hidden;
 	font-family:'Lato', sans-serif;
-	background: : #ff5459
+	background: :#BEC2C4
 	padding:10px 20px 10 px 20px;
 	width:400px
 	border-radius: 20px;
