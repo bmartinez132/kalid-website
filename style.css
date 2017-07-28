@@ -41,7 +41,7 @@ li a{
 }
 
 li a:hover{
-	background:	#ADD5D7;
+	background:#ADCBCD;
 }
 h3{
 	text-align: center;
@@ -49,7 +49,7 @@ h3{
 #quiz {
 	font-family:'Lato', sans-serif;
 	margin-left:10px;
-	background: #d2def2;
+	background: #ADCBCD;
 	padding:10px 20px 10px 20px;
 	width:400px;
 	border-radius:20px;
@@ -67,7 +67,7 @@ input{
 }
 
 #button {
-	background:green;
+	background:#ADCBCD;
 	border:none;
 	border-radius:5px;
 	padding:10px;
@@ -79,7 +79,7 @@ input{
 
 #button:hover {
 	background:white;
-	border: 1px solid green;
+	border: 1px solid white;
 	color:black;
 	cursor:pointer;
 }
