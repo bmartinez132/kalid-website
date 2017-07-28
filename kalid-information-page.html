@@ -57,37 +57,110 @@ Mental health is a person's emotional and psychological well - being. It is impo
 <script type="text/javascript">
 	
 $(document).ready(function(){
-	$("#adhd").click(function()
-	{
+	//list of definitions 
+	var def = ["A developmental disorder that deals with problems with attention, hyperactivity or impulsivity.",
+				"Overwhelming stress that becomes repetitive.",
+				"Developmental disorder that makes it arduous to socialize and communicate with others.",
+				"Pertaining to a person’s mood and energy, one can suffer through dramatic highs and lows.",
+				"Severe, unstable mood swings, instability"," Feelings of sadness that affects how you feel and how you live your daily life",
+				" Overly concerned about food and weight problems that one cannot focus on life.",
+				" Repetitive, negative thoughts that urges one to do something compulsively","result of traumatic events from an accident, incident, and military combat."];
+	
+	//when the adhd box is clicked display the popup box
+	$("#adhd").click(function(){
 		$(".window-popup").fadeIn(300);
+
+		//displays the corresponding definition in the list
+		$("#content").text(def[0]);
 	});
+
+	//when close button is pressed popup box disappears
 	$("#button-popup-close").click(function()
 	{
 		$(".window-popup").fadeOut(300);
+
+		//remove current definition 
+		$("#content").text('');
+	});
+
+	$("#anxiety").click(function()
+	{
+		$(".window-popup").fadeIn(300);
+		$("#content").text(def[1]);
+
+	});
+	// $("#button-popup-close").click(function()
+	// {
+	// 	$(".window-popup").fadeOut(300);
+	// 			$("#content").text('');
+
+	// });
+	$("#autism").click(function()
+	{
+		$(".window-popup").fadeIn(300);
+			$("#content").text(def[2]);
+
+	});
+	$("#bipolar").click(function()
+	{
+		$(".window-popup").fadeIn(300);
+		$("#content").text(def[3]);
+
+	});
+	$("#bpd").click(function()
+	{
+		$(".window-popup").fadeIn(300);
+		$("#content").text(def[4]);
+
+	});
+	$("#depression").click(function()
+	{
+		$(".window-popup").fadeIn(300);
+		$("#content").text(def[5]);
+
+	});
+	$("#eating").click(function()
+	{
+		$(".window-popup").fadeIn(300);
+		$("#content").text(def[6]);
+
+	});
+ 
+	$("#ocd").click(function()
+	{
+		$(".window-popup").fadeIn(300);
+		$("#content").text(def[7]);
+
+	});
+	$("#ptsd").click(function()
+	{
+		$(".window-popup").fadeIn(300);
+		$("#content").text(def[8]);
+
 	});
  });
 </script>
 <table>
 	<tr>
 		<td id ="adhd">ADHD (Attention Deficit Hyperactivity Disorder)</td>
-		<td>Anxiety Disorder </td> 
-		<td>Autism (Autism Spectrum Disorder) </td> 
+		<td id ="anxiety">Anxiety Disorder </td> 
+		<td id ="autsim">Autism (Autism Spectrum Disorder) </td> 
 	</tr>
 	<tr>
-		<td>Bipolar Disorder </td> 
-		<td>BPD (Borderline Personality Disorder)</td> 
-		<td>Depression</td>
+		<td id ="bipolar">Bipolar Disorder </td> 
+		<td id ="bpd">BPD (Borderline Personality Disorder)</td> 
+		<td id ="depression">Depression</td>
 	</tr>
 	<tr>
-		<td>Eating Disorder</td>
-		<td>Obsessive - compulsive Disorder</td>
-		<td>PTSD (Posttraumatic Stress Disorder)</td>
+		<td id ="eating">Eating Disorder</td>
+		<td id ="ocd">Obsessive - compulsive Disorder</td>
+		<td id ="ptsd">PTSD (Posttraumatic Stress Disorder)</td>
 	</tr>
 </table>
 
 <div class="window-popup">
 		<div class ="wp-content">
-			<h1> A developmental disorder that deals with problems with attention, hyperactivity or impulsivity.</h1>
+			<p id = "content"></p>
 			<a href="#" id="button-popup-close">Close</a>
 		</div>
 </div>
