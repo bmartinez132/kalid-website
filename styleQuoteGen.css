@@ -37,7 +37,7 @@ li a{
 }
 
 li a:hover{
-	background:	#ADD5D7;
+	background:	#BEC2C4;
 }
 h3{
 	text-align: center;
@@ -56,5 +56,5 @@ h3{
     cursor: pointer;
 }
 .button:hover{
-	background: #b3b5b7
+	background: #BEC2C4
 }
