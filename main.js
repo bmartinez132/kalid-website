@@ -10,54 +10,50 @@ function check(){
 	var question8 = document.quiz.question8.value;
 	var question9 = document.quiz.question9.value;
 	var question10 = document.quiz.question10.value;
-	var correct = 0;
-
-		if (question1 == "Happy") {
-			correct++;
-	}	
-		if (question2 == "Yes") {
-			correct++;
-	}
-		if (question3 == "Yes") {
-			correct++;
-	}	
-		if (question4 == "Yes") {
-			correct++;
-	}	
-		if (question5 == "Yes") {
-			correct++;
-	}
-		if (question6 == "Yes") {
-			correct++;
-	}	
-		if (question7 == "Yes") {
-			correct++;
-	}	
-		if (question8 == "Yes") {
-			correct++;
-	}
-		if (question9 == "Yes") {
-			correct++;
-	}	
-		if (question10 == "Yes") {
-			correct++;
-		}
-
+	var finalScore = checkValue(question1) + checkValue(question2) + checkValue(question3) + checkValue(question4) + checkValue(question5) + checkValue(question6) 
+					+ checkValue(question7)+ checkValue(question8) + checkValue(question9) + checkValue(question10);
+	console.log(finalScore);
 var messages = ["You may not have a mental illness. Perhaps you are upset, because your having a bad day","Some signs of mental illnesses is detected","You may have a mental illness. Please consult your doctor"];
 
 var range;
 
-	if (correct < 4) {
-		range = 2;
+	if (finalScore < 30) {
+		range = 0;
 	}
-	if (correct > 4 && correct < 7) {
+	if (finalScore > 30 && finalScore < 49) {
 		range = 1;
 	}
-	if (correct > 7) {
-		range = 0;
+	if (finalScore == 50) {
+		range = 2;
 	}
 document.getElementById("after_submit").style.visibility = "visible";
 
 document.getElementById("message").innerHTML = messages[range];
-document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";
+}
+
+function checkValue(val){
+	if(val == "1"){
+		return 1;
+	}
+
+	else if (val == "2"){
+		return 2;
+	}
+
+	else if (val == "3"){
+		return 3;
+	}
+
+	else if (val == "4"){
+		return 4;
+	}
+
+	else if(val == "5"){
+		return 5;
+	}
+	else{
+		return 0;
+	}
+
+
 }

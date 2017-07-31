@@ -53,10 +53,13 @@ h3{
 	padding:10px 20px 10px 20px;
 	width:400px;
 	border-radius:20px;
+	font-size: 13px;
+
 }
 
 input{
 	margin-bottom:20px;
+	display: inline;
 }
 #textbox{
 	height:25px;
