@@ -20,7 +20,7 @@ ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color:#a9afb6;
+	background-color:#87ceeb;
 	position: absolute;
 	width:100%;
 	top:0;
@@ -40,7 +40,7 @@ li a{
 }
 
 li a:hover{
-	background:#BEC2C4;
+	background:white;
 }
 h3{
 	text-align: center;
