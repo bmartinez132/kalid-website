@@ -35,10 +35,13 @@ body, html {
       <a href="#about us" class="w3-button w3-block w3-black">ABOUT US</a>
     </div>
     <div class="w3-col s3">
+      <a href="#information" class="w3-button w3-block w3-black">INFORMATION</a>
+    </div>
+    <div class="w3-col s3">
       <a href="#inspire" class="w3-button w3-block w3-black">INSPIRE</a>
     </div>
     <div class="w3-col s3">
-      <a href="#speakout" class="w3-button w3-block w3-black">Speak Out</a>
+      <a href="#speakout" class="w3-button w3-block w3-black">SPEAK OUT</a>
     </div>
   </div>
 </div>
@@ -72,7 +75,44 @@ body, html {
     </center>
   </div>
 </div>
+<!-- Purpose Container -->
+<div class="w3-container" id="information">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Information</span></h5>
+  
+    <div class="w3-row w3-center w3-card-2 w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'What is Mental Health');" id="myLink">
+        <div class="w3-col s6 tablink">What is Mental Health?</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Signs and Symptoms');">
+        <div class="w3-col s6 tablink">Signs and Symptoms</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Types of Mental Illnesses');">
+        <div class="w3-col s6 tablink">Types of Mental Illnesses</div>
+      </a>
 
+    </div>
+
+    <div id="What is Mental Health" class="w3-container menu w3-padding-20 w3-card-2">
+        <br></br>
+        <center>
+        <p><b>What is Mental Health?</b>
+        <br></br>
+        Mental health is a person's emotional and psychological well - being. It is important to keep our minds happy and healthy. In order to keep ourselves in check lookout for signs that could mean you are exhibiting a type of mental illness. 
+        <br></br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Koss6rrPlw0" frameborder="0" allowfullscreen></iframe>
+        <br></br>
+        </center>
+    <div id="Signs and Symptoms" class="w3-container menu w3-padding-48 w3-card-2">
+
+    <div id="Types of Mental Illnesses" class="w3-container menu w3-padding-20 w3-card-2">
+
+    
+</center>
+    </div>  
+</div>
+  </div>  
 <!-- Inspire Container -->
 <div class="w3-container" id="inspire">
   <div class="w3-content" style="max-width:700px">
@@ -200,11 +240,11 @@ body, html {
     
 
 <!-- Contact/Area Container -->
-<div class="w3-container" id="contact" style="padding-bottom:32px;">
+<!-- <div class="w3-container" id="contact" style="padding-bottom:32px;">
   <div class="w3-content" style="max-width:700px">
     <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">WHERE TO FIND US</span></h5>
     <p>Find us at some address at some place.</p>
-    <div id="googleMap" class="w3-sepia" style="width:100%;height:400px;"></div>
+    <div id="googleMap" class="w3-sepia" style="width:100%;height:400px;"></div> -->
     <p><span class="w3-tag">FYI!</span> We love it when we can here from you. Whether its talking about the site or talking about yourself, we would love to know more about you.</p>
     <p><strong>PS</strong> Be Happy!</p>
     <form action="/action_page.php" target="_blank">
@@ -224,21 +264,7 @@ body, html {
 </footer>
 <!-- Add Google Maps -->
 <script>
-function myMap()
-{
-  myCenter=new google.maps.LatLng(41.878114, -87.629798);
-  var mapOptions= {
-    center:myCenter,
-    zoom:12, scrollwheel: false, draggable: false,
-    mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
-  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
 
-  var marker = new google.maps.Marker({
-    position: myCenter,
-  });
-  marker.setMap(map);
-}
 
 // Tabbed Menu
 function openMenu(evt, menuName) {
