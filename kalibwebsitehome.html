@@ -7,10 +7,6 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
- <link href="index" type = "html" href = "index.html">
-    <script src = "main.js"></script>
-
 
 <style>
 body, html {
@@ -108,7 +104,7 @@ div .w3-col .s3{
         <div class="w3-col s6 tablink">Types of Mental Illnesses</div>
       </a>
       <a href="javascript:void(0)" onclick="openMenu(event, 'Quiz');">
-        <div class="w3-col s6 tablink">More Information</div>
+        <div class="w3-col s6 tablink">Quiz</div>
       </a>
     </div>
 <!--Actual Writing for the Mental Health Tabs-->
@@ -124,6 +120,7 @@ div .w3-col .s3{
         </center>
         </div>
     <div id="Signs and Symptoms" class="w3-container menu w3-padding-20 w3-card-2">
+        <center>
         <br></br>
         <br></br>
         <b>Signs and Symptoms</b>
@@ -154,6 +151,7 @@ div .w3-col .s3{
         <br></br>
         - Unable to perform daily tasks
         <br></br>
+        </center>
     </div>
 
     <div id="Types of Mental Illnesses" class="w3-container menu w3-padding-20 w3-card-2" style="padding:20px">
@@ -272,8 +270,9 @@ $(document).ready(function(){
 </div>
 
 
-
     <div id="Quiz" class="w3-container menu w3-padding-20 w3-card-2">
+    <script src = "main.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylequiz.css">
     <form id = "quiz" name = "quiz">
     <center>
       <p>Would you say your overall mood everyday is happy?</p>
@@ -357,12 +356,13 @@ $(document).ready(function(){
       <input type = "radio" id = "mc" name = "question10" value = "3">Neutral
       <input type = "radio" id = "mc" name = "question10" value = "4">Agree
       <input type = "radio" id = "mc" name = "question10" value = "5">Strongly Agree
-
+      <br></br>
       <input id = "button" type = "button" value = "Done" onclick = "check();">
     </form>
     <div id  = "after_submit">
       <p id = "message"></p>
       <p>Thank You!</p>
+      </center>
     </div>
     </center>
     </div>  
