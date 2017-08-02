@@ -6,6 +6,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 <style>
 body, html {
     height: 100%;
@@ -75,8 +77,12 @@ div .w3-col .s3{
       <p><i></i></p>
     </div>
     <center>
+<<<<<<< HEAD
     <img src="logo.PNG" style="width:100%;max-width:200px;padding:10px;class="w3-margin-top">
     <br></br>
+=======
+    <img src="kaliblogo.PNG" style="width:50%;max-width:200px";class="w3-margin-top">
+>>>>>>> 53110e254defae70315279102409a59a2f90c095
     </center>
   </div>
 </div>
@@ -115,6 +121,7 @@ div .w3-col .s3{
         <br></br>
         </center>
         </div>
+<<<<<<< HEAD
     <div id="Signs and Symptoms" class="w3-container menu w3-padding-20 w3-card-2">
     <br></br>
     <br></br>
@@ -146,10 +153,161 @@ div .w3-col .s3{
 <br></br>
 - Unable to perform daily tasks
 <br></br>
+=======
+    <div id="Signs and Symptoms" class="w3-container menu w3-padding-48 w3-card-2">
+    <center>
+        <p>- Irregular eating
+        <br></br>
+        - Isolation
+        <br></br>
+        - Feeling like nothing matters
+        <br></br>
+        - Aches and pains
+        <br></br>
+        - Feeling helpless
+        <br></br>
+        - Smoking, drinking, using drugs more than normal
+        <br></br>
+        - Feeling confused and/or a wide range of emotions
+        <br></br>
+        - Fighting with others
+        <br></br>
+        - Having mood swings
+        <br></br>
+        - Thoughts and memories that persist in your head
+        <br></br>
+        - Hearing voices or believing things that are not true
+        <br></br>
+        - Thinking of self - harm or harming others
+        <br></br>
+        - Unable to perform daily tasks
+        <br></br></p>
+        </center>
+        </div>
+
+>>>>>>> 53110e254defae70315279102409a59a2f90c095
 
     <div id="Types of Mental Illnesses" class="w3-container menu w3-padding-20 w3-card-2">
 
+    <link rel="stylesheet" type="text/css" href="info-kalid-style.css">
+
+<script type="text/javascript">
+  
+$(document).ready(function(){
+  //list of definitions 
+  var def = ["A developmental disorder that deals with problems with attention, hyperactivity or impulsivity.",
+        "Overwhelming stress that becomes repetitive.",
+        "Developmental disorder that makes it arduous to socialize and communicate with others.",
+        "Pertaining to a person’s mood and energy, one can suffer through dramatic highs and lows.",
+        "Severe, unstable mood swings, instability"," Feelings of sadness that affects how you feel and how you live your daily life",
+        " Overly concerned about food and weight problems that one cannot focus on life.",
+        " Repetitive, negative thoughts that urges one to do something compulsively","result of traumatic events from an accident, incident, and military combat."];
+  
+  //when the adhd box is clicked display the popup box
+  $("#adhd").click(function(){
+    $(".window-popup").fadeIn(300);
+
+    //displays the corresponding definition in the list
+    $("#content").text(def[0]);
+  });
+
+  //when close button is pressed popup box disappears
+  $("#button-popup-close").click(function()
+  {
+    $(".window-popup").fadeOut(300);
+
+    //remove current definition 
+    $("#content").text('');
+  });
+
+  $("#anxiety").click(function()
+  {
+    $(".window-popup").fadeIn(300);
+    $("#content").text(def[1]);
+
+  });
+  // $("#button-popup-close").click(function()
+  // {
+  //  $(".window-popup").fadeOut(300);
+  //      $("#content").text('');
+
+  // });
+  $("#autism").click(function()
+  {
+    $(".window-popup").fadeIn(300);
+      $("#content").text(def[2]);
+
+  });
+  $("#bipolar").click(function()
+  {
+    $(".window-popup").fadeIn(300);
+    $("#content").text(def[3]);
+
+  });
+  $("#bpd").click(function()
+  {
+    $(".window-popup").fadeIn(300);
+    $("#content").text(def[4]);
+
+  });
+  $("#depression").click(function()
+  {
+    $(".window-popup").fadeIn(300);
+    $("#content").text(def[5]);
+
+  });
+  $("#eating").click(function()
+  {
+    $(".window-popup").fadeIn(300);
+    $("#content").text(def[6]);
+
+  });
+ 
+  $("#ocd").click(function()
+  {
+    $(".window-popup").fadeIn(300);
+    $("#content").text(def[7]);
+
+  });
+  $("#ptsd").click(function()
+  {
+    $(".window-popup").fadeIn(300);
+    $("#content").text(def[8]);
+
+  });
+ });
+</script>
+<table>
+  <tr>
+    <td id ="adhd">ADHD (Attention Deficit Hyperactivity Disorder)</td>
+    <td id ="anxiety">Anxiety Disorder </td> 
+    <td id ="autsim">Autism (Autism Spectrum Disorder) </td> 
+  </tr>
+  <tr>
+    <td id ="bipolar">Bipolar Disorder </td> 
+    <td id ="bpd">BPD (Borderline Personality Disorder)</td> 
+    <td id ="depression">Depression</td>
+  </tr>
+  <tr>
+    <td id ="eating">Eating Disorder</td>
+    <td id ="ocd">Obsessive - compulsive Disorder</td>
+    <td id ="ptsd">PTSD (Postraumatic Stress Disorder)</td>
+  </tr>
+</table>
+</div>
+
+<div class="window-popup">
+    <div class ="wp-content">
+      <p id = "content"></p>
+      <a href="#" id="button-popup-close">Close</a>
+    </div>
+</div>
+
     <div id="More Information" class="w3-container menu w3-padding-20 w3-card-2">
+    <center><h4>There are many more mental illnesses out there and you can find out more of them at...</h4>
+      <br></br>
+      <a href="https://www.nami.org/Learn-More/Mental-Health-Conditions">More Mental Health Definitions</a>
+      </center>
     </div>  
     </div>
     </div>  
@@ -251,7 +409,11 @@ div .w3-col .s3{
     </div>
     <div id="Bridgette" class="w3-container menu w3-padding-48 w3-card-2">
       <h5>Bridgette Martinez</h5>
+<<<<<<< HEAD
       <p class="w3-text-grey">My name is Bridgette Martinez </p><br>
+=======
+      <p class="w3-text-grey">My name is Bridgette Martinez, a rising senior at King/Drew Medical Magnet High School (Class of 2018). I am the eldest of three, with two awesome and wonderful brothers. My mom is my rock and number one supporter. I have been playing soccer for as long as I can remember, my team is like my family. I want to give back to people and do something in the medical field for my career. The summer program Girls Who Code is one of the greatest things that has happened to me and has made me more interested in computer science as well.This website could have not been done without my two outstanding team members Kylie and Karen. Thanks to them I have had so much fun and managed to overcome the problems we came across. </p><br>
+>>>>>>> 53110e254defae70315279102409a59a2f90c095
     </div>
     <div id="Karen" class="w3-container menu w3-padding-48 w3-card-2">
       <h5>Karen Cazares</h5>
