@@ -8,6 +8,9 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <link href="index" type = "html" href = "index.html">
+    <script src = "main.js"></script>
+
 
 <style>
 body, html {
@@ -104,7 +107,7 @@ div .w3-col .s3{
       <a href="javascript:void(0)" onclick="openMenu(event, 'Types of Mental Illnesses');">
         <div class="w3-col s6 tablink">Types of Mental Illnesses</div>
       </a>
-      <a href="javascript:void(0)" onclick="openMenu(event, 'More Information');">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Quiz');">
         <div class="w3-col s6 tablink">More Information</div>
       </a>
     </div>
@@ -270,11 +273,98 @@ $(document).ready(function(){
 
 
 
-    <div id="More Information" class="w3-container menu w3-padding-20 w3-card-2">
-    <center><h4>There are many more mental illnesses out there and you can find out more of them at...</h4>
+    <div id="Quiz" class="w3-container menu w3-padding-20 w3-card-2">
+    <form id = "quiz" name = "quiz">
+    <center>
+      <p>Would you say your overall mood everyday is happy?</p>
       <br></br>
-      <a href="https://www.nami.org/Learn-More/Mental-Health-Conditions">More Mental Health Definitions</a>
-      </center>
+      <input type = "radio" id = "mc" name = "question1" value = "1">Strongly Disagree
+      <input type = "radio" id = "mc" name = "question1" value = "2">Disagree
+      <input type = "radio" id = "mc" name = "question1" value = "3">Neutral
+      <input type = "radio" id = "mc" name = "question1" value = "4">Agree
+      <input type = "radio" id = "mc" name = "question1" value = "5">Strongly Agree
+
+
+      <p>Are you happy with your body and weight?</p>
+      <br></br>
+      <input type = "radio" id = "mc" name = "question2" value = "1">Strongly Disagree
+      <input type = "radio" id = "mc" name = "question2" value = "2">Disagree
+      <input type = "radio" id = "mc" name = "question2" value = "3">Neutral
+      <input type = "radio" id = "mc" name = "question2" value = "4">Agree
+      <input type = "radio" id = "mc" name = "question2" value = "5">Strongly Agree
+
+      <p>Do you think you eat a healthy balanced diet?</p>
+      <br></br>
+      <input type = "radio" id = "mc" name = "question3" value = "1">Strongly Disagree
+      <input type = "radio" id = "mc" name = "question3" value = "2">Disagree
+      <input type = "radio" id = "mc" name = "question3" value = "3">Neutral
+      <input type = "radio" id = "mc" name = "question3" value = "4">Agree
+      <input type = "radio" id = "mc" name = "question3" value = "5">Strongly Agree
+
+      <p>Do you get the recommended 7-9 hours of sleep?</p>
+      <br></br>
+      <input type = "radio" id = "mc" name = "question4" value = "1">Strongly Disagree
+      <input type = "radio" id = "mc" name = "question4" value = "2">Disagree
+      <input type = "radio" id = "mc" name = "question4" value = "3">Neutral
+      <input type = "radio" id = "mc" name = "question4" value = "4">Agree
+      <input type = "radio" id = "mc" name = "question4" value = "5">Strongly Agree
+
+      <p>Are you doing well at school or work?</p>
+      <br></br>
+      <input type = "radio" id = "mc" name = "question5" value = "1">Strongly Disagree
+      <input type = "radio" id = "mc" name = "question5" value = "2">Disagree
+      <input type = "radio" id = "mc" name = "question5" value = "3">Neutral
+      <input type = "radio" id = "mc" name = "question5" value = "4">Agree
+      <input type = "radio" id = "mc" name = "question5" value = "5">Strongly Agree
+
+
+      <p>Do you attend school or work regularly?</p>
+      <br></br>
+      <input type = "radio" id = "mc" name = "question6" value = "1">Strongly Disagree
+      <input type = "radio" id = "mc" name = "question6" value = "2">Disagree
+      <input type = "radio" id = "mc" name = "question6" value = "3">Neutral
+      <input type = "radio" id = "mc" name = "question6" value = "4">Agree
+      <input type = "radio" id = "mc" name = "question6" value = "5">Strongly Agree
+
+      <p>You rarely feel stressed:</p>
+      <br></br>
+      <input type = "radio" id = "mc" name = "question7" value = "1">Strongly Disagree
+      <input type = "radio" id = "mc" name = "question7" value = "2">Disagree
+      <input type = "radio" id = "mc" name = "question7" value = "3">Neutral
+      <input type = "radio" id = "mc" name = "question7" value = "4">Agree
+      <input type = "radio" id = "mc" name = "question7" value = "5">Strongly Agree
+
+      <p>You rarely get frustrated with yourself:</p>
+      <br></br>
+      <input type = "radio" id = "mc" name = "question8" value = "1">Strongly Disagree
+      <input type = "radio" id = "mc" name = "question8" value = "2">Disagree
+      <input type = "radio" id = "mc" name = "question8" value = "3">Neutral
+      <input type = "radio" id = "mc" name = "question8" value = "4">Agree
+      <input type = "radio" id = "mc" name = "question8" value = "5">Strongly Agree
+
+      <p>You have never taken drugs or alcohol:</p>
+      <br></br>
+      <input type = "radio" id = "mc" name = "question9" value = "1">Strongly Disagree
+      <input type = "radio" id = "mc" name = "question9" value = "2">Disagree
+      <input type = "radio" id = "mc" name = "question9" value = "3">Neutral
+      <input type = "radio" id = "mc" name = "question9" value = "4">Agree
+      <input type = "radio" id = "mc" name = "question9" value = "5">Strongly Agree
+
+      <p>You have never considered self - harm:</p>
+      <br></br>
+      <input type = "radio" id = "mc" name = "question10" value = "1">Strongly Disagree
+      <input type = "radio" id = "mc" name = "question10" value = "2">Disagree
+      <input type = "radio" id = "mc" name = "question10" value = "3">Neutral
+      <input type = "radio" id = "mc" name = "question10" value = "4">Agree
+      <input type = "radio" id = "mc" name = "question10" value = "5">Strongly Agree
+
+      <input id = "button" type = "button" value = "Done" onclick = "check();">
+    </form>
+    <div id  = "after_submit">
+      <p id = "message"></p>
+      <p>Thank You!</p>
+    </div>
+    </center>
     </div>  
     </div>
     </div>  
