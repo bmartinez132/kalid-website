@@ -84,8 +84,5 @@ input{
 td, th{
 	border: 1px solid #bcccd3;
 	text-align: left;
-	padding: 100px;
 }
-tr:nth-child(even){
-	background-color: #ced7db;
-}
+
